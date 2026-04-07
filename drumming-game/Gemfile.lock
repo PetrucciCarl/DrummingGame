@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    alsa-rawmidi (0.4.0)
+      ffi (~> 1.15, >= 1.15.5)
+    ffi (1.17.4-x86-mingw32)
+    ffi-coremidi (0.5.1)
+      ffi (~> 1.15, >= 1.15.5)
+    gosu (1.4.6)
+    midi-jruby (0.2.0)
+    midi-winmm (0.1.10)
+      ffi (>= 1.0)
+    thread (0.2.2)
+    tk (0.6.0)
+    unimidi (0.5.1)
+      alsa-rawmidi (~> 0.4, >= 0.4.0)
+      ffi-coremidi (~> 0.5, >= 0.5.1)
+      midi-jruby (~> 0.2, >= 0.2.0)
+      midi-winmm (~> 0.1, >= 0.1.10)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  gosu
+  thread
+  tk
+  unimidi
+
+CHECKSUMS
+  alsa-rawmidi (0.4.0) sha256=e2f7f29f3bfd9535ddf12f5339b870b954948ff91c30b5a4ffde814e80a8d44f
+  ffi (1.17.4-x86-mingw32) sha256=a8e5c32a33417ca7af79056fc43c25c4ac133816becc8e4262d6450fb504bee2
+  ffi-coremidi (0.5.1) sha256=1cb4902bd67385c74e0ddd11b5af03620c74a0243d8dd8da76f315904b6fdbaf
+  gosu (1.4.6) sha256=80c7fa48cf61f4960ef067fdd1c000d98b4adc8e11faeaa486543d00908a5c15
+  midi-jruby (0.2.0) sha256=e61eec42e88b4fb10591240c5dca2724184c0103901803f3bee8d866b1e7c71d
+  midi-winmm (0.1.10) sha256=1d39fdc53486dfeeb54c9c89131466d2be757f9630ba640a2656a8d0bc3e5a89
+  thread (0.2.2) sha256=0ef704d20878d4dc9090fd2e8e99282fdc7bb047b2ee53fe15916bdfd97776f5
+  tk (0.6.0) sha256=f75ee691956dc48f3ff2730c018808fc8c44caf6ab755cf752c84cec10ee7282
+  unimidi (0.5.1) sha256=307cc799463a6ba7ba062931fa3ce97edb7c4de526544c5ea12b117f46230ff9
+
+BUNDLED WITH
+  4.0.9
